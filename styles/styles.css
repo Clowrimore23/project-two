@@ -7,26 +7,103 @@ body {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+
 }
 .leftnav{
     display: flex; 
-     flex-direction: row; 
+    flex-direction: row; 
+    justify-content: right;
     
 }
 .topbutton{
     padding: 0px 5px;
 
 }
+.square{
+    width: 27px;
+    border-radius: 5px;
+    margin: 0px 3px; 
+}
+.social{
+    display: flex;
+    align-items: center;
+}
 .login {
     display: flex; 
     flex-direction: row;
     justify-content: flex-end;
-}
+
+  }
 .carousel{
-    width: 100%;
+  
+    object-fit:scale-down;
     margin: 0 auto;
+    display: block;
+  width: 100%;
+
+    
+}
+.arrows{
+    display: flex; 
+    width: 98%;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: -247px;
+    border: 1px solid red;
+
+}
+.arrow{
+    width: 60px;
+    align-self: center;
+    margin: 0px 10px;
 }
 .picture {
-    width: 100%;
+    display: block;
+    position: relative;
+    object-fit: contain;
+    max-width: 95%;
     margin: 0 auto;
+   
+
+}
+div img {
+    width: 20%;
+    align-self: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid red; 
+    margin: 10px 0px;
+}
+
+
+.footertop{
+    
+    display: flex;
+    flex-direction: row;
+    border: solid gray 20px;
+}
+.leftnav {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: right;
+    margin: 20px;
+    justify-content: space-between;
+}
+.footerlogo{
+    width: 70px;
+}
+.bottom {
+    border: 1px solid red;
+}
+.bbutton{
+
+   font-size: 10px;
+}
+.footerbottom{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
