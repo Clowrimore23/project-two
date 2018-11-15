@@ -49,10 +49,11 @@ body {
     justify-content: space-between;
     position: absolute;
     margin-top: -247px;
-    border: 1px solid red;
+
 
 }
 .arrow{
+
     width: 60px;
     align-self: center;
     margin: 0px 10px;
@@ -74,7 +75,7 @@ div img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: 1px solid red; 
+
     margin: 10px 0px;
 }
 
@@ -83,7 +84,7 @@ div img {
     
     display: flex;
     flex-direction: row;
-    border: solid gray 20px;
+    border: solid gray 10px; 
 }
 .leftnav {
     display: flex; 
@@ -96,7 +97,7 @@ div img {
     width: 70px;
 }
 .bottom {
-    border: 1px solid red;
+
 }
 .bbutton{
 
